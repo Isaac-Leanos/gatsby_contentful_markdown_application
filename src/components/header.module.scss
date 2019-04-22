@@ -1,0 +1,34 @@
+// Usually default font-size of the browser is 16px. Setting font-size: 100% will make 1rem = 16px. But it will make calculations a little difficult. A better way is to set font-size: 62.5%. Because 62.5% of 16px is 10px. Which makes 1rem = 10px.
+
+
+
+.header {
+    // border: 1px solid red;
+    padding: 1rem 0 3rem;
+}
+.title {
+    color: #292929;
+    font-size: 3rem; //48?
+    text-decoration: none;
+}
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    color: #999999;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.navItem:hover {
+    color: #666666;
+}
+
+.activeNavItem {
+    color: #333333;
+}

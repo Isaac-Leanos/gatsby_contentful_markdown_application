@@ -1,0 +1,16 @@
+.container {
+    // border: 1px solid blue;
+    margin: -8px auto;
+    max-width: 1020px;
+    padding: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    // border: 1px solid green;
+    flex-grow: 1;
+}
+

@@ -4,6 +4,13 @@ module.exports = {
         author: 'Isaachar Leanos',
     },
     plugins: [
+        {
+            resolve: "gatsby-source-contentful", // enables Contentful & access in graphQl 
+            options: {
+                spaceId: process.env.CONTENTFUL_SPACE_ID,
+                accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+            }
+        },
         "gatsby-plugin-sass", // enables use of SASS files.
         {
             resolve: "gatsby-source-filesystem", // enables use of files from file system.
@@ -13,9 +20,8 @@ module.exports = {
             }
         },
         "gatsby-plugin-sharp", // nodejs image resizing module
-       // "gatsby-transformer-remark", // Parses Markdown files using Remark. Also, gatsby-remark-images & relatives-images need to be brought out of transformer-remark
         {
-            resolve: "gatsby-transformer-remark",
+            resolve: "gatsby-transformer-remark", // Parses Markdown files using Remark.
             options: {
                 plugins: [
                     "gatsby-remark-relative-images", // allow for relative paths from .md files
@@ -30,4 +36,12 @@ module.exports = {
             }
         }
     ] 
+
+
+
+
+
+
+
+
 }

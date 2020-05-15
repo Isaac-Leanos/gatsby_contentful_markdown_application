@@ -1,3 +1,5 @@
+spaceId: 'ha6tw1yjr21i',
+          accessToken: 'psNA6Kj-JGfB4sLxHyW0w5ao4Qfys0M7f827QvmbfW0'
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

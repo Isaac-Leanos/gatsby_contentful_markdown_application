@@ -8,7 +8,6 @@ const IndexPage = ()=>{
     return (
             <Layout>
                 <h1>Index</h1>
-                <h2>blah bleh bloop</h2>
                 <p><Link to="/about">About me</Link> </p>
                 <p><a href="https://github.com" target="_blank">Github</a> </p>
             </Layout>

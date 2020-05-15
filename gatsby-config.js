@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: 'Gatsby Bootcamp',
-        author: 'Isaachar Leanos',
+        author: 'Isaac Leanos',
     },
     plugins: [
         {

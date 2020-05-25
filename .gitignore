@@ -55,6 +55,7 @@ typings/
 .env
 # just in case
 .env.development
+.env.production
 
 # gatsby files
 .cache/
